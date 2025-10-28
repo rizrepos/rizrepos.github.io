@@ -5,236 +5,147 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Rizwan Arshad — Tech Lead · Engineering Manager · Full Stack</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
   <style>
-    :root{
-      --bg:#081226; --card:#0f1724; --muted:#94a3b8; --accent:#38bdf8;
-    }
-    body{font-family:"Inter",system-ui,-apple-system,Segoe UI,Roboto,"Helvetica Neue",Arial; background:linear-gradient(180deg,var(--bg),#071022 120%); color:#e6eef8;}
-    a{color:var(--accent)}
-    .glass{background:linear-gradient(180deg, rgba(255,255,255,0.02), rgba(255,255,255,0.01)); border:1px solid rgba(255,255,255,0.04); box-shadow:0 6px 30px rgba(2,6,23,0.6);}
-    .pill{background:rgba(255,255,255,0.03); padding:.25rem .6rem; border-radius:999px; font-weight:600; font-size:.82rem;}
-    .muted{color:var(--muted)}
-    .accent{color:var(--accent)}
-    .sep{height:1px;background:linear-gradient(90deg, transparent, rgba(255,255,255,0.03), transparent); margin:2rem 0;}
-    .container{max-width:1100px}
+    body {font-family:"Inter",sans-serif;background-color:#0f172a;color:#e2e8f0;scroll-behavior:smooth;}
+    .accent{color:#38bdf8}
+    .muted{color:#94a3b8}
+    .card{background-color:#1e293b;border-radius:1rem;padding:2rem;margin-bottom:1.5rem;box-shadow:0 6px 25px rgba(0,0,0,.4);}
+    a:hover{color:#fff}
   </style>
 </head>
-<body class="min-h-screen py-10 flex justify-center">
-  <main class="container px-6">
-    <!-- Header / Hero -->
-    <section class="glass rounded-2xl p-8 md:p-12">
-      <div class="md:flex md:items-center md:justify-between">
-        <div>
-          <h1 class="text-3xl md:text-4xl font-extrabold">Rizwan <span class="accent">Arshad</span></h1>
-          <p class="muted mt-2 text-sm">Tech Lead | Full Stack | PHP | Laravel | Javascript | TypeScript | Node | MERN | MEAN | MySQL | MongoDB | DevOps | Docker | Kubernetes</p>
-          <p class="mt-4 text-gray-200 max-w-2xl leading-relaxed">
-            <strong>Summary:</strong> 20+ Years of development & management experience working for startups & enterprises. Fully committed to providing technical solutions that best fit client requirements without neglecting final product quality. Adept at agile methodologies and a natural team leader with assertive communication and coordination skills.
-          </p>
-        </div>
+<body class="px-5 py-10">
+  <main class="max-w-3xl mx-auto">
 
-        <aside class="mt-6 md:mt-0 md:text-right">
-          <div class="inline-block text-sm text-gray-300">
-            <div class="font-semibold">Contact</div>
-            <div class="muted mt-2">📞 +92 300 8003408</div>
-            <div class="muted">✉️ <a href="mailto:gr8rizwan@gmail.com">gr8rizwan@gmail.com</a></div>
-            <div class="muted">🔗 <a href="https://www.linkedin.com/in/mrizwanarshad">linkedin.com/in/mrizwanarshad</a></div>
-            <div class="muted mt-2">📍 Lahore, Punjab, Pakistan</div>
-            <div class="muted mt-3 text-xs">Top Skills: Laravel · Node.js · WordPress</div>
-            <div class="muted text-xs mt-1">Languages: English (Professional Working)</div>
-          </div>
-        </aside>
+    <!-- Header -->
+    <section data-aos="fade-down" class="text-center mb-12">
+      <h1 class="text-4xl md:text-5xl font-extrabold mb-2">Rizwan <span class="accent">Arshad</span></h1>
+      <p class="text-gray-400 mb-4 text-sm">Lahore, Punjab, Pakistan</p>
+      <p class="text-lg text-gray-300 mb-4">Tech Lead | Full Stack | PHP | Laravel | JavaScript | TypeScript | Node | MERN | MEAN | MySQL | MongoDB | DevOps | Docker | Kubernetes</p>
+      <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-400">
+        <a href="mailto:gr8rizwan@gmail.com">📧 gr8rizwan@gmail.com</a>
+        <a href="tel:+923008003408">📞 +92 300 8003408</a>
+        <a href="https://www.linkedin.com/in/mrizwanarshad">💼 LinkedIn</a>
+        <a href="https://github.com/rizwan-arshad">🐙 GitHub</a>
       </div>
+    </section>
 
-      <div class="sep"></div>
+    <!-- Summary -->
+    <section data-aos="fade-up" class="card">
+      <h2 class="text-2xl font-bold accent mb-3">Summary</h2>
+      <p class="leading-relaxed text-gray-300">
+        20+ years of development & management experience working for startups & enterprises.
+        Fully committed to providing technical solutions that best fit client requirements without compromising quality.
+        Adept at agile methodologies and a natural team leader with assertive communication and coordination skills.
+        I enjoy building enterprise-level applications in LAMP, MAMP, and MERN/MEAN environments with a strong focus on quality and scalability.
+      </p>
+    </section>
 
-      <!-- Highlights -->
-      <div class="grid md:grid-cols-3 gap-4">
-        <div class="p-4">
-          <h3 class="text-sm font-semibold accent">Core Strengths</h3>
-          <ul class="mt-2 text-sm muted space-y-1">
-            <li>☆ Exceptional problem-solving & can-do attitude</li>
-            <li>☆ Experienced with large-scale products & projects</li>
-            <li>☆ E-Commerce solutions & complex payment workflows</li>
-            <li>☆ Microservices & API-first architecture</li>
-            <li>☆ Frontend & backend development, integrations</li>
+    <!-- Core Strengths -->
+    <section data-aos="fade-up" class="card">
+      <h2 class="text-2xl font-bold accent mb-3">Core Strengths</h2>
+      <ul class="list-disc ml-6 space-y-1 text-gray-300">
+        <li>Exceptional problem-solving skills and a can-do attitude</li>
+        <li>Experienced with large-scale products & projects</li>
+        <li>Designing and delivering E-Commerce and API-first solutions</li>
+        <li>Expert in scalable architecture, DevOps & automation</li>
+        <li>Strong team leadership and cross-functional collaboration</li>
+      </ul>
+    </section>
+
+    <!-- Tools & Technologies -->
+    <section data-aos="fade-up" class="card">
+      <h2 class="text-2xl font-bold accent mb-3">Tools & Technologies</h2>
+      <p class="text-gray-300"><strong>Backend:</strong> PHP, Node.js, Laravel, Yii2, CodeIgniter, NestJS, Express, Strapi, GraphQL</p>
+      <p class="text-gray-300"><strong>Frontend:</strong> React, React Native, Angular, Vue.js, TypeScript, jQuery, Bootstrap, Material UI</p>
+      <p class="text-gray-300"><strong>Databases:</strong> MySQL, MongoDB</p>
+      <p class="text-gray-300"><strong>DevOps:</strong> AWS, Azure, Google Cloud, Docker, Kubernetes</p>
+      <p class="text-gray-300"><strong>CI/CD & QA:</strong> Jenkins, SonarQube, Git, Bitbucket, PHPUnit, Jest</p>
+      <p class="text-gray-300"><strong>Cache:</strong> Redis, Memcached, FileCache</p>
+      <p class="text-gray-300"><strong>Project Management:</strong> Jira, Confluence, Asana, Trello</p>
+    </section>
+
+    <!-- Experience -->
+    <section data-aos="fade-up" class="card">
+      <h2 class="text-2xl font-bold accent mb-3">Experience</h2>
+      <div class="space-y-6 text-gray-300">
+        <div>
+          <h3 class="font-semibold text-white">AntiqueLogic – Engineering Manager</h3>
+          <p class="muted text-sm">Feb 2023 – Present</p>
+          <ul class="list-disc ml-6 mt-2">
+            <li>Architecting scalable micro-services</li>
+            <li>Building and mentoring engineering teams</li>
+            <li>Strategic planning, business development & technology adoption</li>
           </ul>
         </div>
-
-        <div class="p-4">
-          <h3 class="text-sm font-semibold accent">Tools & Technologies</h3>
-          <div class="mt-2 text-sm muted space-y-1">
-            <div><strong>Back-end:</strong> PHP, Node.js — Laravel, Yii2, CodeIgniter, Lumen, NestJs, Express, SailsJs, Strapi, GraphQL</div>
-            <div class="mt-1"><strong>Databases:</strong> MySQL, MongoDB</div>
-            <div class="mt-1"><strong>Frontend:</strong> React, React Native, Angular, Vue.js, TypeScript, jQuery, Bootstrap, Material UI</div>
-            <div class="mt-1"><strong>CI/CD & QA:</strong> Jenkins, Jenkins Pipelines, SonarQube, GIT, Bitbucket, PHPUnit, Jest</div>
-            <div class="mt-1"><strong>Cache:</strong> Redis, Memcached, FileCache</div>
-            <div class="mt-1"><strong>DevOps / Cloud:</strong> AWS, Azure, Google Cloud, Docker, Kubernetes, deployment (GoDaddy, Digital Ocean)</div>
-            <div class="mt-1"><strong>E-commerce:</strong> Magento, OpenCart, XCart</div>
-            <div class="mt-1"><strong>Process:</strong> Agile, Jira, Confluence, Zoho, Asana, Trello</div>
-          </div>
+        <div>
+          <h3 class="font-semibold text-white">Zoofy – Development Manager</h3>
+          <p class="muted text-sm">Sep 2020 – Feb 2023</p>
+          <ul class="list-disc ml-6 mt-2">
+            <li>Delivered microservices-based solutions for large-scale platforms</li>
+            <li>Led cross-functional teams across tech and business units</li>
+          </ul>
         </div>
-
-        <div class="p-4">
-          <h3 class="text-sm font-semibold accent">Freelance / Collaboration</h3>
-          <p class="muted text-sm mt-2">Do you need help or looking for collaboration? Call at <span class="text-gray-100">+923008003408</span> or email <a href="mailto:gr8rizwan@gmail.com">gr8rizwan@gmail.com</a>.</p>
-          <div class="mt-4">
-            <span class="pill">Available for consulting</span>
-            <span class="pill ml-2">Select freelance engagements</span>
-          </div>
+        <div>
+          <h3 class="font-semibold text-white">VentureDive – Web Technology Manager</h3>
+          <p class="muted text-sm">Apr 2019 – Aug 2020</p>
+          <ul class="list-disc ml-6 mt-2">
+            <li>Client management, technical delivery, risk analysis</li>
+            <li>Training & mentorship, AWS deployments, JIRA/Confluence</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">SR Hives – Chief Technology Officer</h3>
+          <p class="muted text-sm">Apr 2017 – Mar 2019</p>
+          <p class="mt-2">Cloud/SaaS ERP, CRM, POS, hybrid apps (Ionic/React Native), AWS deployment.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">Munch Investments – Full Stack Web Developer</h3>
+          <p class="muted text-sm">Jan 2016 – Mar 2017, Dubai</p>
+          <p class="mt-2">Developed web solutions (POS, E-commerce, Call Center) using Node.js, AngularJS, Laravel.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">Nextbridge Pvt. Ltd – Principal Software Engineer / Team Lead</h3>
+          <p class="muted text-sm">Feb 2010 – Dec 2015</p>
+          <p class="mt-2">Laravel, WordPress, Drupal, GUI design, performance optimization.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">Christals Solutions – Senior Software Engineer</h3>
+          <p class="muted text-sm">Mar 2007 – Jan 2010</p>
+          <p class="mt-2">PHP, WordPress, OpenCart, CodeIgniter; developed and documented large-scale projects.</p>
+        </div>
+        <div>
+          <h3 class="font-semibold text-white">Aptlogix – Software Engineer</h3>
+          <p class="muted text-sm">Apr 2004 – Mar 2007</p>
+          <p class="mt-2">Managed web & e-commerce projects using WordPress, CubeCart, MySQL.</p>
         </div>
       </div>
     </section>
 
-    <!-- Experience Section -->
-    <section class="mt-8 glass rounded-2xl p-8 md:p-10">
-      <h2 class="text-2xl font-bold accent">Experience</h2>
-      <div class="mt-6 space-y-6 text-sm muted">
-
-        <div>
-          <div class="flex justify-between items-start">
-            <div>
-              <div class="font-semibold text-gray-100">AntiqueLogic</div>
-              <div class="muted">Engineering Manager — February 2023 - Present (2 years 9 months)</div>
-            </div>
-          </div>
-          <ul class="mt-3 list-disc ml-5">
-            <li>Leading engineering efforts, designing scalable micro-services architecture.</li>
-            <li>Building top-notch in-house and remote IT teams.</li>
-            <li>Driving technology selection and adoption for right use-cases.</li>
-            <li>Involved in business development, planning, strategy, modeling, sales and marketing.</li>
-            <li>Contributing to UI/UX process and developing software products for millions of users.</li>
-            <li>Writing standards and development roadmap for team.</li>
-          </ul>
-        </div>
-
-        <div>
-          <div class="font-semibold text-gray-100">Zoofy</div>
-          <div class="muted">Development Manager — September 2020 - February 2023 (2 years 6 months)</div>
-          <ul class="mt-3 list-disc ml-5">
-            <li>Wrote scalable micro-services architecture.</li>
-            <li>Built and led high-performing engineering teams.</li>
-            <li>Ensured adoption of right technologies per use-case and stakeholder needs.</li>
-            <li>Actively involved in business development, planning, strategy, sales & marketing.</li>
-            <li>Involved in UI/UX and product delivery for high-scale systems.</li>
-            <li>Managed standards, roadmaps and delivery ownership.</li>
-          </ul>
-        </div>
-
-        <div>
-          <div class="font-semibold text-gray-100">VentureDive</div>
-          <div class="muted">Web Technology Manager — April 2019 - August 2020 (1 year 5 months)</div>
-          <ul class="mt-3 list-disc ml-5">
-            <li>Analyzed requirements & selected appropriate resources per project.</li>
-            <li>Worked closely with multiple clients via email, phone & IMs.</li>
-            <li>Ensured timely responses from developers and delivery per expectations.</li>
-            <li>Conducted client meetings and regular demos of work-in-progress.</li>
-            <li>Analyzed risks, issues and progress to report to clients and management.</li>
-            <li>Organized training & refresher sessions for team skill growth.</li>
-            <li>Handled leave planning, appraisals and career planning for resources.</li>
-            <li>Client meetings, scope definition, JIRA / Confluence, deployments on AWS/GoDaddy.</li>
-          </ul>
-        </div>
-
-        <div>
-          <div class="font-semibold text-gray-100">SR Hives</div>
-          <div class="muted">Chief Technology Officer — April 2017 - March 2019 (2 years)</div>
-          <ul class="mt-3 list-disc ml-5">
-            <li>Worked with Frappe, ERPNext, EspoCRM, Laravel/Lumen, WordPress, Ionic, React Native.</li>
-            <li>Delivered Cloud/SaaS solutions (ERP, CRM, POS) and hybrid mobile apps.</li>
-            <li>Client meetings, scope definition, JIRA/Confluence, deployments on AWS/DigitalOcean/1and1/GoDaddy.</li>
-          </ul>
-        </div>
-
-        <div>
-          <div class="font-semibold text-gray-100">Munch Investments</div>
-          <div class="muted">Full Stack Web Developer — January 2016 - March 2017 (1 year 3 months) — Dubai, UAE</div>
-          <ul class="mt-3 list-disc ml-5">
-            <li>Node.js, AngularJS, Yii2, Laravel 5.x, Lumen, MySQL, MongoDB</li>
-            <li>Built web solutions: POS, E-Commerce, Call-Center; REST APIs and client-server integration.</li>
-            <li>Worked within Agile/Scrum: sprint execution & backlog management.</li>
-          </ul>
-        </div>
-
-        <div>
-          <div class="font-semibold text-gray-100">Nextbridge Pvt. Ltd</div>
-          <div class="muted">Principal Software Engineer / Team Lead — February 2010 - December 2015 (5 years 11 months)</div>
-          <ul class="mt-3 list-disc ml-5">
-            <li>Laravel 5.x, MySQL, WordPress, Drupal, Sencha Touch</li>
-            <li>Open-source frameworks & CMS development, GUI design and client/server interactions.</li>
-            <li>Performance analysis and process improvements.</li>
-          </ul>
-        </div>
-
-        <div>
-          <div class="font-semibold text-gray-100">Christals Solutions</div>
-          <div class="muted">Senior Software Engineer — March 2007 - January 2010 (2 years 11 months)</div>
-          <ul class="mt-3 list-disc ml-5">
-            <li>WordPress, CodeIgniter, MySQL, OpenCart</li>
-            <li>Executed large-scale multiple projects; server-side PHP & MySQL development.</li>
-            <li>Maintained documentation: solutions, configuration and functional specs.</li>
-          </ul>
-        </div>
-
-        <div>
-          <div class="font-semibold text-gray-100">Aptlogix</div>
-          <div class="muted">Software Engineer — April 2004 - March 2007 (3 years)</div>
-          <ul class="mt-3 list-disc ml-5">
-            <li>WordPress, CubeCart, MySQL</li>
-            <li>Managed web & e-commerce applications; rapid website development and design briefing.</li>
-          </ul>
-        </div>
-
-      </div>
+    <!-- Education -->
+    <section data-aos="fade-up" class="card">
+      <h2 class="text-2xl font-bold accent mb-3">Education</h2>
+      <p class="text-gray-300">University of Engineering and Technology, Lahore</p>
+      <p class="muted text-sm">Bachelor’s Degree, Computer Science (2000 – 2003)</p>
     </section>
 
-    <!-- Additional Details -->
-    <section class="mt-8 glass rounded-2xl p-8 md:p-10">
-      <h2 class="text-2xl font-bold accent">Additional Information</h2>
-      <div class="mt-4 grid md:grid-cols-2 gap-6 text-sm muted">
-        <div>
-          <h4 class="font-semibold text-gray-100">Areas of Expertise</h4>
-          <ul class="mt-2 list-disc ml-5 space-y-1">
-            <li>API design, Microservices, Scalable architectures</li>
-            <li>Payment gateway integrations (Stripe, Mollie, PayPal, Tikkie)</li>
-            <li>Frontend & backend integration, performance tuning</li>
-            <li>Unit testing & automation (PHPUnit, Jest)</li>
-            <li>Cache strategies (Redis, Memcached)</li>
-          </ul>
-        </div>
-
-        <div>
-          <h4 class="font-semibold text-gray-100">Processes & Tools</h4>
-          <ul class="mt-2 list-disc ml-5 space-y-1">
-            <li>CI/CD pipelines, Jenkins, SonarQube, Git/Bitbucket</li>
-            <li>Agile methodologies, Jira, Confluence, Asana, Trello</li>
-            <li>Cloud deployments - AWS, DigitalOcean, Azure</li>
-          </ul>
-        </div>
+    <!-- Contact -->
+    <section data-aos="fade-up" class="text-center mt-10">
+      <p class="muted">Interested in collaboration or consultation?</p>
+      <div class="mt-3">
+        <a href="mailto:gr8rizwan@gmail.com" class="px-4 py-2 bg-blue-600 rounded-full hover:bg-blue-500 transition">Email Me</a>
+        <a href="tel:+923008003408" class="px-4 py-2 bg-gray-700 rounded-full hover:bg-gray-600 transition ml-2">Call</a>
       </div>
-
-      <div class="mt-6">
-        <h4 class="font-semibold text-gray-100">Education</h4>
-        <div class="muted mt-2 text-sm">University of Engineering and Technology, Lahore — Bachelor's Degree, Computer Science (2000 - 2003)</div>
-      </div>
+      <p class="muted text-xs mt-6">© <span id="year"></span> Rizwan Arshad. Crafted with ❤️</p>
     </section>
 
-    <!-- Footer / Call to Action -->
-    <section class="mt-8 text-center">
-      <div class="glass rounded-xl p-6 inline-block">
-        <div class="text-sm muted">Would you like to collaborate or need consultancy?</div>
-        <div class="mt-3">
-          <a class="pill" href="mailto:gr8rizwan@gmail.com">Email: gr8rizwan@gmail.com</a>
-          <a class="pill ml-2" href="tel:+923008003408">Call: +92 300 8003408</a>
-        </div>
-        <div class="mt-3 muted text-xs">© <span id="year">2025</span> Rizwan Arshad</div>
-      </div>
-    </section>
   </main>
 
   <script>
-    // current year
-    document.getElementById('year').textContent = new Date().getFullYear();
+    AOS.init({ duration: 800, once: true });
+    document.getElementById("year").textContent = new Date().getFullYear();
   </script>
 </body>
 </html>
