@@ -1,1 +1,1 @@
-# rizrepos.github.io
+# rizrepos.github.io/index
